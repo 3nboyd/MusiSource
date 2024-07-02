@@ -1,0 +1,1 @@
+This is my website to promote a change in society. I have chosen the music industry. Enjoy!

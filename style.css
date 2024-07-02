@@ -1,0 +1,100 @@
+
+/* The code below centers the text of all h2's on the page. */
+h1 {
+    text-align:center;
+}
+h2 {
+    text-align:center;
+}
+h4 {
+    font-size: 50px;
+    background-color: rgba(0, 0, 0, 0.592);
+}
+h5 {
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 2px 2px #796b6b;
+    
+}
+h6 {
+font-size: 30px;
+}
+p {
+    font-size: 18px;
+}
+body {
+    background-image: url('https://preview.colorkit.co/gradient/f9ce34-ee2a7b-6228d7.png?size=wallpaper&scale=0.25&static=true');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    z-index: 2;
+  }
+/*I don't know what to do with this yet but it is an idea
+.sourcesbody {
+    z-index: 5;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c8c7d60c-0f46-4cb3-9faf-036c565371f4/dfo7u9y-2af2b994-3158-4929-87be-7483e0f0c425.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2M4YzdkNjBjLTBmNDYtNGNiMy05ZmFmLTAzNmM1NjUzNzFmNFwvZGZvN3U5eS0yYWYyYjk5NC0zMTU4LTQ5MjktODdiZS03NDgzZTBmMGM0MjUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.w9nLr9lN2EGwDuvuwDVAvHKP8ZFm5DnYXdofVTlldLo');
+}
+    */
+  .boximages {
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 400px;
+    height: 250px;
+  }
+  .introimg {
+    height: 760px;
+  }
+  .backgroundintroimage {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      justify-content: center;
+      width: 1000px;
+  }
+  .boxsubtext {
+    justify-content: center;
+    text-align: center;
+    display: block;
+    font-display: block;
+  }
+/* The code below aligns all the sections horizontally on the bottom. */
+.section-container {
+    display:flex;
+    justify-content:space-around;
+}
+
+/* The code below a solid black border to section and puts space between them (the margin). */
+.section {
+    border: 5px black solid;
+    margin:5px;
+    background-color: rgba(128, 128, 128, 0.462);
+}
+.sourcesbody {
+    order: ;
+}
+body {
+    background-color: rgba(0, 0, 0, 0.286);
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfkkPnSBxXY29USeSbfStLFJL8CeY_COsYWA&s");
+}
+.lglink { 
+    display: block; 
+    background-color: rgba(0, 0, 0, 0.852); 
+    color: beige; 
+    width: 236%; 
+    height: 70px; 
+    font-size: 30px; 
+    border:rgba(0, 0, 0, 0.852); 
+} 
+
+.lglink:hover { 
+    background-color: rgba(128, 0, 255, 0.626); 
+    color: beige; 
+    transition: .15s;
+}
+html {
+    scroll-behavior: smooth;
+}
